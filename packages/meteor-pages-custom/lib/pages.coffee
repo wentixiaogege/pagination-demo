@@ -1,3 +1,4 @@
+
 @__Pages = class Pages
 
   settings:
@@ -509,7 +510,7 @@
     
     # Create a set of template prefixed by the unique id of this pagination instance
     # The helper and events are set to those of the base versions of those templates (captured by controllers.coffee)
-    debugger;
+    #debugger;
     # this is equal to Pages, which hold all the options like homeRoute, etc
     # @navTemplate ("_pagesNavCont"), @pageTemplate ("_pagesPageCont"), @itemTemplate ("ItemTemplate"), @tableTemplate ("_pagesTable")
     #

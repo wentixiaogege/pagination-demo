@@ -1,5 +1,4 @@
 Pages = new Meteor.Pagination(Items, {
-  homeRoute: ["/", "/items/"],
   itemTemplate: "ItemTemplate",
   route: "/items/",
   router: "iron-router",
@@ -10,9 +9,3 @@ Pages = new Meteor.Pagination(Items, {
   },
   templateName: "Items"
 });
-
-if (Meteor.isClient) {
-
-} else {
-
-}
