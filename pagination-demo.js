@@ -1,5 +1,5 @@
 Pages = new Meteor.Pagination(Items, {
-  itemTemplate: "ItemTemplate",
+  itemTemplate: "Item",
   route: "/items/",
   router: "iron-router",
   routerTemplate: "Items",
